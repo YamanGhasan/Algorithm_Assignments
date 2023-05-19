@@ -6,8 +6,6 @@
 using namespace std;
 
 #define EMPTY_STRING ""
-
- 
 struct Node
 {
     char ch;
