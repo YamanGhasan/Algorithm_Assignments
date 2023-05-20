@@ -11,7 +11,7 @@ int main() {
     cin >> r1 >> c1;
     cout << "Enter ROW2 and COLUMN2" << endl;
     cin >> r2 >> c2;
-     
+ 
     srand(time(0));
     int a[][] ;
     for (i = 0; i < r1; ++i)
