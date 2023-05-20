@@ -27,7 +27,6 @@ int main() {
              cout << a[i][j] << '\t';
          cout << '\n';
     }
-
     srand(time(0));
     int b[][] ;
     for (i = 0; i < r2; ++i)
