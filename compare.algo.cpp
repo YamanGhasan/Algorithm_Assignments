@@ -10,7 +10,6 @@ void merge(int array[], int const left, int const mid,
 	auto const subArrayOne = mid - left + 1;
 	auto const subArrayTwo = right - mid;
 
-
 	auto* leftArray = new int[subArrayOne],
 		* rightArray = new int[subArrayTwo];
 
