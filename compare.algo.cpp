@@ -3,7 +3,6 @@
 using namespace std;
  
 //  Merge Sort
- 
 void merge(int array[], int const left, int const mid,
 	int const right)
 {
