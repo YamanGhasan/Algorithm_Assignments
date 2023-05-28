@@ -129,7 +129,6 @@ void buildHuffmanTree(string text)
     for (char ch : text) {
         str += huffmanCode[ch];
     }
-
     cout << "\nThe encoded string is:\n" << str << endl;
     cout << "\nThe decoded string is:\n";
 
