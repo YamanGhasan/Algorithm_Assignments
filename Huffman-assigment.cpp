@@ -55,7 +55,6 @@ void encode(Node* root, string str, unordered_map<char, string>& huffmanCode)
     encode(root->left, str + "0", huffmanCode);
     encode(root->right, str + "1", huffmanCode);
 }
-
  
 void decode(Node* root, int& index, string str)
 {
